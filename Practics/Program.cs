@@ -99,7 +99,7 @@ namespace Practic1
 
             Console.WriteLine("--------");
 
-            PersonsCollection personsCollection = new PersonsCollection();
+            PersonsCollection<Person> personsCollection = new PersonsCollection<Person>();
 
             personsCollection.Add(new Pensioneer("Ivan", "Ivanovich", 1));
             personsCollection.Add(new Pensioneer("Ivan", "Ivanovich", 1));

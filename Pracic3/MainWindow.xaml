@@ -1,0 +1,15 @@
+﻿<Window x:Class="Practic3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pracic3"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" Margin="249,217,0,0" Click="Button_Click"/>
+        <Label x:Name="label" Content="Label" Margin="0,0,594,311" Background="White" Foreground="#FF7C16E6" FontWeight="Bold" FontSize="22"/>
+        <xctk:ColorPicker x:Name="colorPicker" Margin="280,0,0,240" MouseDoubleClick ="ColorPicker_Click"></xctk:ColorPicker>
+    </Grid>
+</Window>

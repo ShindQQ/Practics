@@ -7,15 +7,15 @@ using System.Collections;
 
 namespace Practic1
 {
-    internal class PersonsCollection : IEnumerable
+    internal class PersonsCollection<T> : IEnumerable where T : Person
     {
-        public List<Person> people = new List<Person>();
-        private Worker worker = new Worker();
-        private Pensioneer pensioneer = new Pensioneer();
-        private bool check = false;
+        private List<T> people = new List<T>();
 
-        public int Add(Person person)
+        public int Add(T person)
         {
+            Worker worker = new Worker();
+            Pensioneer pensioneer = new Pensioneer();
+            bool check = false;
             Type t = person.GetType();
 
             if (person != null)
@@ -33,7 +33,7 @@ namespace Practic1
                 }
                 else if (t == typeof(Worker))
                 {
-                    foreach (Person item in people)
+                    foreach (T item in people)
                     {
                         if (item is Worker && !item.Equals(person))
                         {
@@ -44,7 +44,7 @@ namespace Practic1
 
                     if (check)
                     {
-                        people.Insert(people.IndexOf(worker) + 1, person);
+                        people.Insert(people.IndexOf(worker as T) + 1, person);
                     }
                     else if (WorkersAmmount() == 0)
                     {
@@ -68,7 +68,7 @@ namespace Practic1
 
                     if (check)
                     {
-                        people.Insert(people.IndexOf(pensioneer) + 1, person);
+                        people.Insert(people.IndexOf(pensioneer as T) + 1, person);
                     }
                     else if(PensioneersAmmount() == 0)
                     {
@@ -119,12 +119,12 @@ namespace Practic1
             people.RemoveAt(0);
         }
 
-        public void RemoveItem(Person person)
+        public void RemoveItem(T person)
         {
             people.Remove(person);
         }
 
-        public (bool, int) Contains(Person person)
+        public (bool, int) Contains(T person)
         {
             return (people.Contains(person), people.IndexOf(person));
         }
