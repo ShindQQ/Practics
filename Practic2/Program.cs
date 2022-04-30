@@ -46,11 +46,6 @@ namespace Practic2
             Console.WriteLine();
         }
 
-        //public bool Equals(OrderedDictionary person)
-        //{
-        //    return Name.Equals(person.Name) && FName.Equals(person.FName) && PassportID.Equals(person.PassportID);
-        //}
-
         static void Main(string[] args)
         {
             SortedList<string, int> sortedList = new SortedList<string, int> (/*new DescendedComparer()*/);

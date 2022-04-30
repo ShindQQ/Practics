@@ -15,10 +15,12 @@ namespace Practic2
         {
             _int = i;
         }
+
         public ValueType(double d)
         {
             _double = d;
         }
+
         public override int GetHashCode()
         {
             return Tuple.Create(_int, _double).GetHashCode();
