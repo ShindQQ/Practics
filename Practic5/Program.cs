@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Specialized;
-using System.Globalization;
-using System.Net;
-using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 
