@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practic1
+namespace Practic7
 {
     internal abstract class Person
     {
@@ -26,17 +26,17 @@ namespace Practic1
             PassportID = ID;
         }
 
-        public void Print()
+        public virtual void Print()
         {
             Console.WriteLine($"Name: {Name}, FName: {FName}, PassportID: {PassportID}");
         }
 
-        public bool Equals(Person person)
+        public virtual bool Equals(Person person)
         {
             return Name.Equals(person.Name) && FName.Equals(person.FName) && PassportID.Equals(person.PassportID);
         }
 
-        public void Copy(Person person)
+        public virtual void Copy(Person person)
         {
             this.Name = person.Name;
             this.FName = person.FName;

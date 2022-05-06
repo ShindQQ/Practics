@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practic4", "Practic4\Practi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practic5", "Practic5\Practic5.csproj", "{5689188D-9641-4945-AADD-C4079E74D7D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practic6", "Practic6\Practic6.csproj", "{B01AF4B8-CDE0-47F8-9BC5-D836DA2022CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practic6", "Practic6\Practic6.csproj", "{B01AF4B8-CDE0-47F8-9BC5-D836DA2022CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practic6_Client", "Practic6_Client\Practic6_Client.csproj", "{CABCEF45-558A-45CF-9781-5E2D9D811F3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practic6_Client", "Practic6_Client\Practic6_Client.csproj", "{CABCEF45-558A-45CF-9781-5E2D9D811F3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practic7", "Practic7\Practic7.csproj", "{AFA53031-8AE8-4510-8CD4-5E2EC74FB3D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{CABCEF45-558A-45CF-9781-5E2D9D811F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CABCEF45-558A-45CF-9781-5E2D9D811F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CABCEF45-558A-45CF-9781-5E2D9D811F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA53031-8AE8-4510-8CD4-5E2EC74FB3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA53031-8AE8-4510-8CD4-5E2EC74FB3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA53031-8AE8-4510-8CD4-5E2EC74FB3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA53031-8AE8-4510-8CD4-5E2EC74FB3D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

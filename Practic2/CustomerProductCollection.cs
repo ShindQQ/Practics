@@ -21,7 +21,7 @@ namespace Practic2
         {
             foreach (var cp_item in cp)
             {
-                if (cp_item.Key == customer)
+                if (cp_item.Key.Equals(customer))
                 {
                     cp[cp_item.Key].Add(product);
                 }
@@ -59,12 +59,12 @@ namespace Practic2
         {
             foreach (var cp_item in cp)
             {
-                Console.WriteLine($"Customer:");
+                Console.WriteLine("Customer:");
                 cp_item.Key.Print();
 
                 foreach (var product in cp[cp_item.Key])
                 {
-                    Console.WriteLine($"Product:");
+                    Console.WriteLine("Product:");
                     product.Print();
                 }
             }

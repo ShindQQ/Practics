@@ -20,7 +20,7 @@ namespace Practic6
             temp = temperature;
         }
 
-        public virtual double ConvertTemp()
+        public double ConvertTemp()
         {
             if (this.GetType() == typeof(Farenheit))
             {
