@@ -29,7 +29,7 @@ namespace Practic2
         }
 
         public List<Y> this[T index]
-        {
+        { 
             get
             {
                 return cp[index];

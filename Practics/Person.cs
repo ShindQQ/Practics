@@ -8,9 +8,9 @@ namespace Practic1
 {
     internal abstract class Person
     {
-        public string Name { get; set; }
-        public string FName { get; set; }
-        public int PassportID { get; set; }
+        protected string Name { get; set; }
+        protected string FName { get; set; }
+        protected int PassportID { get; set; }
 
         public Person()
         {
