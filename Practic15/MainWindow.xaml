@@ -1,0 +1,14 @@
+﻿<Window x:Class="Practic15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practic15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Connect DB" Margin="100,206,437,143" Click="Button_Click"/>
+        <Button Content="Close connection" Margin="437,206,100,143" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
