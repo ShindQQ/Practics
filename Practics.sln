@@ -35,13 +35,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practic14", "Practic14\Prac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practic15", "Practic15\Practic15.csproj", "{0AF5903E-AC39-417D-B176-155BEC9D7A5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{AC960D46-5C83-4F9B-A814-94F4836F05BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{AC960D46-5C83-4F9B-A814-94F4836F05BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{51B98054-2224-4F3E-8EEC-D3A928EDB140}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{3B183792-0546-4A0F-B643-613C1A10907F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{7506EE72-64E9-44B4-9E44-D99484E39647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{1A535AC3-FBE9-4F0C-B687-2DA1B3BAF3BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{7506EE72-64E9-44B4-9E44-D99484E39647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7506EE72-64E9-44B4-9E44-D99484E39647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7506EE72-64E9-44B4-9E44-D99484E39647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A535AC3-FBE9-4F0C-B687-2DA1B3BAF3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A535AC3-FBE9-4F0C-B687-2DA1B3BAF3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A535AC3-FBE9-4F0C-B687-2DA1B3BAF3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A535AC3-FBE9-4F0C-B687-2DA1B3BAF3BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
